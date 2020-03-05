@@ -10,7 +10,7 @@ public class Remolque {
     }
     @Override
     public String toString() {
-    	return "   "+this.matricula+"   "+this.longitud;
+    	return " "+this.matricula+" "+this.longitud;
     	
     }
 }

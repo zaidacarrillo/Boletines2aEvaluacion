@@ -10,6 +10,7 @@ public class Coche extends Vehiculo {
 	   this.setVelocidadMaxima(VelocidadMaxima);
 	   this.numeroPlazas = NumeroPlazas;
 	   this.setConductor(conductor);
+	  
 	   
    }
 
@@ -26,7 +27,7 @@ public void setNumeroPlazas(int numeroPlazas) {
 @Override
 public void mostrarDatos() {
 	super.mostrarDatos();
-	System.out.printf("%d", numeroPlazas);
+	System.out.printf("num plazas: %d", numeroPlazas);
 }
 
 }

@@ -49,7 +49,7 @@ public void setConductor(Conductor conductor) {
 }
  
 public void mostrarDatos() {
-	System.out.printf("%s,%s,%s,%s",matricula,velocidadMaxima,tipo,conductor);
+	System.out.printf("matricula: %s,vMax: %s,tipo: %s",matricula,velocidadMaxima,tipo);
 }
 
 
