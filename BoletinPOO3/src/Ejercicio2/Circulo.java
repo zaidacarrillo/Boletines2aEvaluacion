@@ -24,8 +24,7 @@ public class Circulo extends Figura {
 	}
 	
 	protected void calcularArea() {
-	     double areaCirculo = radio*radio*PI;
-	     super.setArea(areaCirculo);
+	     this.setArea(radio*radio*PI);
 	}
 
 }

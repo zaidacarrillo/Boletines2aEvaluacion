@@ -9,11 +9,7 @@ public class Cuadrado extends Figura{
 	public Cuadrado(double lado) {
 		this.lado = lado;
 	}
-	protected void calcularArea() {
-	    double areaCuadrado = lado*lado;
-		
-	}
-
+	
 
 	public double getLado() {
 		return lado;
@@ -22,6 +18,11 @@ public class Cuadrado extends Figura{
 
 	public void setLado(double lado) {
 		this.lado = lado;
+	}
+	
+	protected void calcularArea() {
+	    this.setArea(lado*lado);
+		
 	}
 
 }
