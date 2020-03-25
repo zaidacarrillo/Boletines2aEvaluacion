@@ -21,10 +21,22 @@ public class Triangulo extends Figura{
 	public void setAltura(double altura) {
 		this.altura = altura;
 	}
-	protected void calcularArea() {
+	public void calcularArea() {
 		  this.setArea(base*altura/2);
 			
 		}
+
+	@Override
+	public void calcularPerimetro() {
+		this.setPerimetro(base*3);
+		
+	}
+
+	@Override
+	public void imprimirDatosFigura() {
+		// TODO Auto-generated method stub
+		
+	}
 	 
 	 
 }

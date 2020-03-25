@@ -17,6 +17,10 @@ public class Main {
 		miRectangulo.calcularArea();
 		System.out.printf("El área de mi rectangulo es:%f\n",miRectangulo.getArea());
 		
+		miCirculo.calcularArea();
+		miCirculo.imprimirArea();
+		
+	    
 
 	}
 

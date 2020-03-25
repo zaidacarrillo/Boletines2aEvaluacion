@@ -17,9 +17,12 @@ public class Rectangulo extends Cuadrado {
 		this.base = base;
 	}
 	
-	protected void calcularArea() {
+	public void calcularArea() {
 	     this.setArea(getLado()*base);
 	}
+	
+	//Lo dejo como error y no elimino el "final" para mostrar el cometido del ejercicio el cual es, mostrar que no se puede sobreescribir el método en las clases hijas.
+	
 
 
 }

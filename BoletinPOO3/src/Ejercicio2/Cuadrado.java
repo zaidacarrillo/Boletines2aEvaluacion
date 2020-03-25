@@ -20,8 +20,22 @@ public class Cuadrado extends Figura{
 		this.lado = lado;
 	}
 	
-	protected void calcularArea() {
+	public final void calcularArea() {
 	    this.setArea(lado*lado);
+		
+	}
+
+
+	@Override
+	public void calcularPerimetro() {
+		this.setPerimetro(lado*4);
+		
+	}
+
+
+	@Override
+	public void imprimirDatosFigura() {
+		
 		
 	}
 
