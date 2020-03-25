@@ -1,0 +1,7 @@
+Dado que no soy capaz de borrar algunas carpetas para que lo puedas revisar, las que tienen contenido son:
+APOYOPROGRAMACIÓN (No es de clase pero tiene)
+BoletinArrays01
+BoletinPOO1
+BoletinPOO2
+BoletinPOO3
+y el resto son carpetas sin nada importante que no se pudieron borrar.
